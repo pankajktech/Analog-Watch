@@ -1,5 +1,4 @@
-
-body{
+body {
     padding: 0;
     margin: 0;
 }
@@ -13,6 +12,16 @@ body{
     background-size: 100%;
 }
 
+#center {
+    background: black;
+    position: absolute;
+    width: 2.5%;
+    height: 4.2%;
+    border-radius: 100%;
+    left: 48.9%;
+    top: 50%;
+}
+
 #hours,
 #minutes,
 #seconds {
@@ -24,7 +33,7 @@ body{
     position: absolute;
     left: 49.5%;
     top: 37.6%;
-    width: 1.2%;
+    width: 1%;
     height: 15%;
     transform-origin: bottom;
     /* display: none; */
@@ -36,7 +45,7 @@ body{
     position: absolute;
     left: 49.65%;
     top: 31.5%;
-    width: 1%;
+    width: 0.5%;
     height: 21%;
     transform-origin: bottom;
     /* display: none; */
