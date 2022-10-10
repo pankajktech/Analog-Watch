@@ -1,4 +1,5 @@
 body {
+    background: linear-gradient(to right, purple, blue);
     padding: 0;
     margin: 0;
 }
