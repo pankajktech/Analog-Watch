@@ -7,19 +7,19 @@ body {
     margin: auto;
     position: relative;
     height: 45vw;
-    width: 70vw;
-    background: url(clock.jpg) no-repeat;
+    width: 45vw;
+    background: url(clock.webp) no-repeat;
     background-size: 100%;
 }
 
 #center {
     background: black;
     position: absolute;
-    width: 2.5%;
+    width: 4%;
     height: 4.2%;
     border-radius: 100%;
-    left: 48.9%;
-    top: 50%;
+    left: 48.3%;
+    top: 48%;
 }
 
 #hours,
@@ -31,8 +31,8 @@ body {
 
 #hours {
     position: absolute;
-    left: 49.5%;
-    top: 37.6%;
+    left: 49.7%;
+    top: 35.5%;
     width: 1%;
     height: 15%;
     transform-origin: bottom;
@@ -43,8 +43,8 @@ body {
 
 #minutes {
     position: absolute;
-    left: 49.65%;
-    top: 31.5%;
+    left: 49.99%;
+    top: 29.5%;
     width: 0.5%;
     height: 21%;
     transform-origin: bottom;
@@ -53,8 +53,8 @@ body {
 
 #seconds {
     position: absolute;
-    left: 49.9%;
-    top: 27.3%;
+    left: 49.99%;
+    top: 25.5%;
     width: .4%;
     height: 25%;
     transform-origin: bottom;
