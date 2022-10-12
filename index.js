@@ -1,20 +1,21 @@
 setInterval(() => {
 
-let d = new Date()
-let htime = d.getHours()
-let mtime = d.getMinutes()
-let stime = d.getSeconds()
+    let d = new Date()
 
-hrotation = 30*htime + mtime/2
-mrotation = 6*mtime
-srotation = 6*stime
+    let htime = d.getHours()
+    let mtime = d.getMinutes()
+    let stime = d.getSeconds()
 
-
-hours.style.transform = `rotate(${hrotation}deg)`
-minutes.style.transform = `rotate(${mrotation}deg)`
-seconds.style.transform = `rotate(${srotation}deg)`
+    hrotation = 30 * htime + mtime / 2
+    mrotation = 6 * mtime
+    srotation = 6 * stime
 
 
+    hours.style.transform = `rotate(${hrotation}deg)`
+    minutes.style.transform = `rotate(${mrotation}deg)`
+    seconds.style.transform = `rotate(${srotation}deg)`
 
-   
+
+
+
 }, 1000);
